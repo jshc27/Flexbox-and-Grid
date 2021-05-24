@@ -44,6 +44,7 @@ h1, h3, p {
     
     height: 100%;
     width: 100%;
+    background-color: #ffff;
     
 }
 
@@ -57,7 +58,6 @@ h1, h3, p {
     height: 175px;
     border-radius: 20px;
     padding: 20px;
-    border: 1px solid red;
     justify-content: space-around;
 }
 
@@ -75,9 +75,9 @@ h1, h3, p {
 
 .container_center-personalData {
     display: flex;
-    border: 1px solid red;
+    align-items: center;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 112px;
     width: 100%;
     padding: 5px;
@@ -92,10 +92,13 @@ h1, h3, p {
 }
 
 .container_center-personalData--right {
-    border: 1px solid green;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
     width: 20%;
+    
 }
+
 
 .container_center-personalData--imageProfile {
     height: 50px;
@@ -131,4 +134,27 @@ h1, h3, p {
     border-radius: 10px;
     padding: 8px;
     margin: 5px;
+}
+
+.container_center-courses {
+    height: 50px;
+    
+}
+
+.container_center-courses h2 {
+    background-color: #FFFF;
+    margin-top: 10px;
+}
+
+.container_center-menu {
+
+    display: flex;
+    height: 20px;
+    background-color: #FFFF;
+}
+
+.container_center-menu p {
+    margin-right: 20px;
+    background-color: #FFFF;
+
 }
