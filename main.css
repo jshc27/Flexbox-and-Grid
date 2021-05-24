@@ -4,27 +4,39 @@
     max-width: 100%;
     height: 100%;
     background-color: #f1f1f3;
+    color: #000;
 }
 
+h1, h3, p {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    
+}
+
+
 .container {
-   
+
     display: grid;
     grid-template-columns: 100px 1fr 1fr;
     margin: 50px 50px;
     grid-gap: 50px;
     border: 1px solid #f8f8f9;
+    background-color: #FFFF;
     border-radius: 20px;
     padding: 20px;
     
 }
 
-.container_left, .container_center, .container_right  {
+.container_center, .container_right  {
+    
     border-radius: 20px;
-    background-color: #109cf1;
 }
 
 .container_left {
     height: 100%;
+    background-color: #000;
+    border-radius: 20px;
     
 }
 
@@ -32,8 +44,91 @@
     
     height: 100%;
     width: 100%;
+    
 }
 
 .container_right {
     
+}
+
+.container_center-title {
+    display: flex;
+    width: 100%;
+    height: 175px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    justify-content: space-around;
+}
+
+.container_center-description {
+    height: 150px;
+    
+}
+
+.container_center-img img {
+    object-fit: cover;
+    height: 150px;
+    
+}
+
+
+.container_center-personalData {
+    display: flex;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 112px;
+    width: 100%;
+    padding: 5px;
+}
+
+.container_center-personalData--left {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+
+}
+
+.container_center-personalData--right {
+    border: 1px solid green;
+    height: 100px;
+    width: 20%;
+}
+
+.container_center-personalData--imageProfile {
+    height: 50px;
+    width: 50px;
+    background-color: #FFFF;
+    padding: 8px;
+    margin: 5px;
+}
+
+.container_center-personalData--name {
+
+    height: 50px;
+    width: 120px;
+    margin: 5px;
+}
+
+.container_center-personalData--progressBar {
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.container_center-personalData--button {
+    display: flex;
+    align-items: center;
+}
+.container_center-personalData--button button {
+    height: 45px;
+    width: 120px;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;
 }
