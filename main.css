@@ -3,15 +3,36 @@
     margin: 0px;
     max-width: 100%;
     height: 100%;
+    background-color: #f1f1f3;
 }
 
 .container {
-    background-color: gray;
-    border: 1px solid blue;
+   
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    margin: 50px 50px;
+    grid-gap: 50px;
+    border: 1px solid #f8f8f9;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.container_left, .container_center, .container_right  {
+    border-radius: 20px;
+    background-color: #109cf1;
 }
 
 .container_left {
-    height: 70px;
-    width: 200px;
-    border: 1px solid red;
+    height: 100%;
+    
+}
+
+.container_center {
+    height: 100%;
+    width: 100%;
+}
+
+.container_right {
+    
 }
