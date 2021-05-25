@@ -177,8 +177,7 @@ h1, h3, p {
 }
 
 .container_right-search input {
-    
-   
+
     border-radius: 10px;
     width: 280px;
     margin-right: 70px;
@@ -208,4 +207,54 @@ h1, h3, p {
 
 .container_right-left h1, .container_right-right h1 {
     margin-right: 5px;
+}
+
+.container_right-statistics {
+
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffff;
+
+}
+
+.container_right-statistics h3 {
+
+    background-color: #ffff;
+
+}
+
+.container_right-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #ffff;
+}
+
+.container_right-panel li  {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: #ffff;
+}
+
+.container_right-panel input {
+    width: 80px;
+}
+
+.container_right-table {
+
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    width: 100%;
+    background-color: #ffff;
+}
+
+.container_right-table img {
+
+    object-fit: contain;
+    margin-top: 40px;
+    background-color: #ffff;
+    
 }
