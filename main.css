@@ -49,7 +49,7 @@ h1, h3, p {
 }
 
 .container_right {
-    
+    background-color: #ffff;
 }
 
 .container_center-title {
@@ -116,12 +116,17 @@ h1, h3, p {
 }
 
 .container_center-personalData--progressBar {
-    height: 50px;
-    width: 50px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 40px;
     padding: 8px;
-    margin: 5px;
+    margin: 10px;
 }
 
+.container_center-personalData--progressBar img {
+    margin-right: 5px;
+}
 .container_center-personalData--button {
     display: flex;
     align-items: center;
@@ -157,4 +162,50 @@ h1, h3, p {
     margin-right: 20px;
     background-color: #FFFF;
 
+}
+
+
+.container_right-header {
+    background-color: #ffff;
+    display: flex;
+    height: 35px;
+    width: 100%;
+}
+
+.container_right-search {
+    background-color: #ffff;
+}
+
+.container_right-search input {
+    
+   
+    border-radius: 10px;
+    width: 280px;
+    margin-right: 70px;
+}
+
+.container_right-notification, .container_right-profile {
+    margin-right: 20px;
+    
+}
+
+.container_right-dateCourses {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 130px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.container_right-left, .container_right-right {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.container_right-left h1, .container_right-right h1 {
+    margin-right: 5px;
 }
