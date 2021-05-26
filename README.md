@@ -2,7 +2,7 @@
 
 En este repositorio vas a encontrar el diseño de una interfaz visual que se utiliza para practicar las técnicas de Flexbox y Grid Layout. 
 
-### Documentación | Ejemplo práctico
+### Ejemplo práctico
 
 #### ¿Como se hizo la maquetación?
 
