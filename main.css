@@ -1,19 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+/* general properties */
+
 * {
+
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
     margin: 0px;
     max-width: 100%;
     height: 100%;
     background-color: #f1f1f3;
     color: #000;
+
 }
 
 h1, h3, p {
+
     display: flex;
     height: 50%;
     align-items: center;
-    
+
 }
 
+.container_center, .container_right, .container_center-courses h2, .container_center-menu, .container_center-menu p, .container_right-search, .container_right-notification img, .container_right-profile img, .container_right-statistics h3  {
+    background-color: #ffff;
+}
+
+
+/* main containers */
 
 .container {
 
@@ -30,43 +45,57 @@ h1, h3, p {
 }
 
 .container_center, .container_right  {
-    
+
     border-radius: 20px;
 }
 
 .container_left {
+
+    display: grid;
+    place-items: center;
     height: 100%;
-    background-color: #000;
     border-radius: 20px;
-    
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #f8f8f9;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+
+}
+
+.container_left img {
+
+    background-color:#f8f8f9;
 }
 
 .container_center, .container_right {
     
     height: 100%;
     width: 100%;
-    background-color: #ffff;
-    
+
 }
 
 .container_center-title {
+
     display: flex;
     width: 100%;
     height: 175px;
     border-radius: 20px;
     padding: 20px;
     justify-content: space-around;
+
 }
 
+/* center container */
+
 .container_center-description {
+
     height: 150px;
-    
 }
 
 .container_center-img img {
+
     object-fit: cover;
     height: 150px;
-    
+
 }
 
 
@@ -93,7 +122,7 @@ h1, h3, p {
     justify-content: center;
     height: 50px;
     width: 20%;
-    
+
 }
 
 
@@ -103,6 +132,7 @@ h1, h3, p {
     background-color: #FFFF;
     padding: 8px;
     margin: 5px;
+
 }
 
 .container_center-personalData--name {
@@ -110,67 +140,79 @@ h1, h3, p {
     height: 50px;
     width: 120px;
     margin: 5px;
+
 }
 
 .container_center-personalData--progressBar {
+
     display: flex;
     align-items: center;
     height: 40px;
     width: 40px;
     padding: 8px;
     margin: 10px;
+
 }
 
 .container_center-personalData--progressBar img {
+
     margin-right: 5px;
 }
+
 .container_center-personalData--button {
+
     display: flex;
     align-items: center;
+
 }
+
 .container_center-personalData--button button {
+
     height: 35px;
     width: 100px;
-    background-color: #000;
+    background-color: #021d4f;
     color: #ffff;
     border-radius: 10px;
     padding: 8px;
     margin: 5px;
+    cursor: pointer;
+
 }
 
 .container_center-courses {
+
     height: 50px;
-    
+
 }
 
 .container_center-courses h2 {
-    background-color: #FFFF;
+
     margin-top: 10px;
+
 }
 
 .container_center-menu {
 
     display: flex;
     height: 20px;
-    background-color: #FFFF;
 }
 
 .container_center-menu p {
+
     margin-right: 20px;
-    background-color: #FFFF;
 
 }
 
 
+/* right container */
+
 .container_right-header {
+
     background-color: #ffff;
     display: flex;
     height: 35px;
     width: 100%;
-}
 
-.container_right-search {
-    background-color: #ffff;
 }
 
 .container_right-search input {
@@ -178,11 +220,13 @@ h1, h3, p {
     border-radius: 10px;
     width: 280px;
     margin-right: 70px;
+
 }
 
 .container_right-notification, .container_right-profile {
+
     margin-right: 20px;
-    
+
 }
 
 .container_right-dateCourses {
@@ -194,15 +238,19 @@ h1, h3, p {
     height: 130px;
     width: 100%;
     border-radius: 20px;
+
 }
 
 .container_right-left, .container_right-right {
+
     display: flex;
     margin-right: 30px;
     align-items: center;
+
 }
 
 .container_right-left h1, .container_right-right h1 {
+
     margin-right: 5px;
 }
 
@@ -215,17 +263,13 @@ h1, h3, p {
 
 }
 
-.container_right-statistics h3 {
-
-    background-color: #ffff;
-
-}
-
 .container_right-panel {
+
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     background-color: #ffff;
+
 }
 
 .container_right-panel li  {
@@ -233,10 +277,12 @@ h1, h3, p {
     align-items: center;
     list-style: none;
     background-color: #ffff;
+
 }
 
 .container_right-panel input {
     width: 80px;
+
 }
 
 .container_right-table {
@@ -257,13 +303,14 @@ h1, h3, p {
 }
 
 .container_right-premium {
+
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
     height: 150px;
     border-radius: 20px;
     padding: 20px;
-    
+
 }
 
 .container_right-text {
@@ -276,6 +323,3 @@ h1, h3, p {
 .container_right-text h3 {
     margin-bottom: 5px;
 }
-
-
-
