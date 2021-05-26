@@ -29,7 +29,7 @@ En la etiqueta div con clase "container_center" es un contenedor principal(gener
 ![Captura de pantalla 2021-05-26 170556](https://user-images.githubusercontent.com/56690309/119737352-c3628780-be44-11eb-8c89-d4c397e6c4fa.png)
 
 
-Finalmente se repitio el mismo proceso para la etiqueta div con clase "container_right" agregando los espaciados e imagenes correspondientes. 
+Finalmente se repitió el mismo proceso para la etiqueta div con clase "container_right" agregando los espaciados e imagenes correspondientes. 
 
 ![Captura de pantalla 2021-05-26 171251](https://user-images.githubusercontent.com/56690309/119738043-a4182a00-be45-11eb-8558-43fc13d04c7a.png)
 
