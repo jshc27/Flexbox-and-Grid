@@ -31,6 +31,10 @@ En la etiqueta div con clase "container_center" es un contenedor principal(gener
 
 Finalmente se repitio el mismo proceso para la etiqueta div con clase "container_right" agregando los espaciados e imagenes correspondientes. 
 
+![Captura de pantalla 2021-05-26 171251](https://user-images.githubusercontent.com/56690309/119738043-a4182a00-be45-11eb-8558-43fc13d04c7a.png)
+
+Conclusión: Las tecnicas Flexbox & Grid se deben utilizar de acuerdo a la maquetación de tu proyecto, haciendo uso adecuado de sus etiquetas y por ende la semanatica. Grid layout para diseños multidimensionales donde se aprecien varias filas y columnas al mismo tiempo y flexbox para diseño de una dimension para fila y columna.
+
 Fuente:  https://www.figmafinder.com/figma-e-learning-ui
      
 
