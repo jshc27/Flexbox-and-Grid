@@ -19,8 +19,10 @@ con ellos.
 
 ![Captura de pantalla 2021-05-22 115529](https://user-images.githubusercontent.com/56690309/119234661-b1a37c00-baf4-11eb-9c43-40dfdff1a329.png)
 
-En la etiqueta nav con clase "container_left" se agregaron imagenes en representación de los iconos con su respectivo pixelaje. Se utilizó; display: grid;
+En la etiqueta nav con clase "container_left" se agregaron imagenes en representación de los iconos con su respectivo pixelaje. Se utilizó, display: grid;
 place-items: center; con el proposito de que tomara una alineación vertical centrada. 
+
+![Captura de pantalla 2021-05-26 171001](https://user-images.githubusercontent.com/56690309/119737658-3d930c00-be45-11eb-90e0-5d470165a5df.png)
 
 En la etiqueta div con clase "container_center" es un contenedor principal(general) la cual tiene los elementos especificos, se agregarón los 6 contenedores internos. Dentro de cada uno se trabajo con display: flex para dar organizacion horizontal de cada elemento.   
 
