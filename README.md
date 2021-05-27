@@ -35,6 +35,10 @@ Finalmente se repitió el mismo proceso para la etiqueta div con clase "containe
 
 Conclusión: Las tecnicas Flexbox & Grid se deben utilizar de acuerdo a la maquetación del proyecto, haciendo uso adecuado de sus etiquetas y semanatica. Grid layout para diseños multidimensionales donde se aprecien varias filas y columnas al mismo tiempo y flexbox para diseño de una dimension para fila y columna.
 
+
+![Captura de pantalla 2021-05-28 a las 14 50 51-fullpage](https://user-images.githubusercontent.com/56690309/119888550-18f96b80-befb-11eb-85e7-15d799e9bce4.png)
+
+
 Fuente:  https://www.figmafinder.com/figma-e-learning-ui
      
 
